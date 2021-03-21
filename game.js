@@ -5,7 +5,7 @@ function preload() {
 }
 
 function create() {
-  gameState.codey = this.add.sprite(40, 200, 'codey');
+  gameState.codey = this.add.sprite(120, 160, 'codey');
   gameState.cursors = this.input.keyboard.createCursorKeys();
 }
 
