@@ -1,7 +1,4 @@
-//const gameState = {};
-
-document.activeElement.addEventListener('keydown', handleKeydown);
-
+const gameState = {};
 
 function preload() {
   this.load.image('codey', '../codey.png');
